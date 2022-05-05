@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFC107"
+    >
+    <Button
+        android:id="@+id/btnArrayAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView using ArrayAdapter"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBaseAdapter"
+        android:text="ListView using BaseAdapter"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGridView"
+        android:text="GridView using BaseAdapter"
+        android:textAllCaps="false"/>
+</LinearLayout>
